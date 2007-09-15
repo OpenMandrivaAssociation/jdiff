@@ -35,7 +35,7 @@
 Summary:        JDiff - An HTML Report of API Differences
 Name:           jdiff
 Version:        1.0.10
-Release:        %mkrel 2.0.2
+Release:        %mkrel 2.0.3
 Epoch:          0
 License:        LGPL
 URL:            http://javadiff.sourceforge.net/
@@ -44,8 +44,6 @@ Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  ant >= 0:1.6
 BuildRequires:  jpackage-utils >= 0:1.6
 %if %{gcj_support}
-Requires(post): java-gcj-compat
-Requires(postun): java-gcj-compat
 BuildRequires:  java-gcj-compat-devel
 %else
 BuildArch:      noarch
