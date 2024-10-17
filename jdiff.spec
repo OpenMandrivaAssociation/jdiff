@@ -38,7 +38,7 @@ Version:        1.0.10
 Release:        %mkrel 2.0.6
 Epoch:          0
 License:        LGPL
-URL:            http://javadiff.sourceforge.net/
+URL:            https://javadiff.sourceforge.net/
 Group:          Development/Java
 Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  ant >= 0:1.6
